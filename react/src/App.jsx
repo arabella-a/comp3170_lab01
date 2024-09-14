@@ -1,3 +1,5 @@
+import "./App.css";
+
 function App() {
   return (
     <div>
@@ -8,13 +10,12 @@ function App() {
           </nav>
         </header>
         <main>
-          <img src="/zb1.jpeg" alt="zerobaseone group photo"/>
-          <h1>MyTunes</h1>
-          <h3>ZEROBASEONE Discography</h3>
+          <img src="./zb1.jpeg" alt="zerobaseone group photo"/>
           <div>
+          <h3>ZEROBASEONE Discography</h3>
             <table className="table">
               <details>
-                <summary>YOUTH IN THE SHADE</summary>
+                <summary>YOUTH IN THE SHADE <span>&#43;</span></summary>
                 <p>Back to ZEROBASE</p>
                 <p>In Bloom</p>
                 <p>New Kidz on the Block</p>
@@ -25,7 +26,7 @@ function App() {
             </table>
             <table className="table">
               <details>
-                <summary>MELTING POINT</summary>
+                <summary>MELTING POINT <span>&#43;</span></summary>
                 <p>MELTING POINT</p>
                 <p>Take My Hand</p>
                 <p>CRUSH</p>
@@ -36,7 +37,7 @@ function App() {
             </table>
             <table className="table">
               <details>
-              <summary>ゆらゆら -運命の花 YURA YURA</summary>
+              <summary>ゆらゆら -運命の花 YURA YURA <span>&#43;</span></summary>
                 <p>ゆらゆら -運命の花 YURA YURA</p>
                 <p>In Bloom - Japanese Ver.</p>
                 <p>Crush - Japanese Ver.</p>
@@ -44,7 +45,7 @@ function App() {
             </table>
             <table className="table">
               <details>
-                <summary>You had me at HELLO</summary>
+                <summary>You had me at HELLO <span>&#43;</span></summary>
                 <p>Solar POWER</p>
                 <p>Feel the POP</p>
                 <p>Dear ECLIPSE</p>
@@ -56,7 +57,7 @@ function App() {
             </table>
             <table className="table">
               <details>
-                <summary>CINEMA PARADISE</summary>
+                <summary>CINEMA PARADISE <span>&#43;</span></summary>
                 <p>GOOD SO BAD</p>
                 <p>KILL THE ROMEO</p>
                 <p>The Sea - ZB1 Remake</p>

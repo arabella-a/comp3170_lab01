@@ -8,73 +8,63 @@ function App() {
           </nav>
         </header>
         <main>
-          <img src="./assests/zb1.jpeg" alt="zerobaseone group photo"/>
+          <img src="/zb1.jpeg" alt="zerobaseone group photo"/>
           <h1>MyTunes</h1>
           <h3>ZEROBASEONE Discography</h3>
           <div>
             <table className="table">
-              <tr>
-                <th>YOUTH IN THE SHADE</th>
-              </tr>
-              <tr>
-                <td>Back to ZEROBASE</td>
-                <td>In Bloom</td>
-                <td>New Kidz on the Block</td>
-                <td>And I</td>
-                <td>Our Season</td>
-                <td>Always</td>
-              </tr>
+              <details>
+                <summary>YOUTH IN THE SHADE</summary>
+                <p>Back to ZEROBASE</p>
+                <p>In Bloom</p>
+                <p>New Kidz on the Block</p>
+                <p>And I</p>
+                <p>Our Season</p>
+                <p>Always</p>
+              </details>
             </table>
             <table className="table">
-              <tr>
-                <th>MELTING POINT</th>
-              </tr>
-              <tr>
-                <td>MELTING POINT</td>
-                <td>Take My Hand</td>
-                <td>CRUSH</td>
-                <td>And I</td>
-                <td>Our Season</td>
-                <td>Always</td>
-              </tr>
+              <details>
+                <summary>MELTING POINT</summary>
+                <p>MELTING POINT</p>
+                <p>Take My Hand</p>
+                <p>CRUSH</p>
+                <p>And I</p>
+                <p>Our Season</p>
+                <p>Always</p>
+              </details>
             </table>
             <table className="table">
-              <tr>
-              <th>ゆらゆら -運命の花 YURA YURA</th>
-              </tr>
-              <tr>
-                <td>ゆらゆら -運命の花 YURA YURA</td>
-                <td>In Bloom - Japanese Ver.</td>
-                <td>Crush - Japanese Ver.</td>
-              </tr>
+              <details>
+              <summary>ゆらゆら -運命の花 YURA YURA</summary>
+                <p>ゆらゆら -運命の花 YURA YURA</p>
+                <p>In Bloom - Japanese Ver.</p>
+                <p>Crush - Japanese Ver.</p>
+              </details>
             </table>
             <table className="table">
-              <tr>
-                <th>You had me at HELLO</th>
-              </tr>
-              <tr>
-                <td>Solar POWER</td>
-                <td>Feel the POP</td>
-                <td>Dear ECLIPSE</td>
-                <td>SWEAT</td>
-                <td>Sunday RIDE</td>
-                <td>HELLO</td>
-                <td>Feel the POP - Sped Up Version</td>
-              </tr>
+              <details>
+                <summary>You had me at HELLO</summary>
+                <p>Solar POWER</p>
+                <p>Feel the POP</p>
+                <p>Dear ECLIPSE</p>
+                <p>SWEAT</p>
+                <p>Sunday RIDE</p>
+                <p>HELLO</p>
+                <p>Feel the POP - Sped Up Version</p>
+              </details>
             </table>
             <table className="table">
-              <tr>
-                <th>CINEMA PARADISE</th>
-              </tr>
-              <tr>
-                 <td>GOOD SO BAD</td>
-                <td>KILL THE ROMEO</td>
-                <td>The Sea - ZB1 Remake</td>
-                <td>Insomia</td>
-                <td>Road Movie</td>
-                <td>Eternity</td>
-                <td>YURA YURA - Korean Version</td>
-              </tr>
+              <details>
+                <summary>CINEMA PARADISE</summary>
+                <p>GOOD SO BAD</p>
+                <p>KILL THE ROMEO</p>
+                <p>The Sea - ZB1 Remake</p>
+                <p>Insomia</p>
+                <p>Road Movie</p>
+                <p>Eternity</p>
+                <p>YURA YURA - Korean Version</p>
+              </details>
             </table>
           </div>
          </main>

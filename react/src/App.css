@@ -1,15 +1,16 @@
 main {
-display: flex;
-align-items: center;
-justify-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 details > summary {
-  background-color: #72A0C1;
+  background-color: none;
   font-weight: 600;
   list-style: none;
   padding: 0.3rem;
-  border-top-right-radius: 0.6rem;
+  border-bottom: 2px solid #D3D3D3;
   width: 15rem;
 }
 
@@ -18,7 +19,7 @@ details > summary {
 }
 
 details[open] > summary{
-  background-color:#F0F8FF;
+  background-color:#D3D3D3;
   color: black;
 }
 
@@ -31,4 +32,15 @@ details > p {
 span {
   float: right;
   padding-right: 0.25rem;
+}
+
+img {
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 2.625rem;
+  margin: auto;
+  padding: auto;
+  text-align: center;
 }

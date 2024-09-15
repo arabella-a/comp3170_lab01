@@ -1,4 +1,5 @@
 import "./App.css";
+import groupPhoto from './assets/images/zb1.jpeg';
 
 function App() {
   return (
@@ -6,11 +7,11 @@ function App() {
       <section id="section">
         <header>
           <nav>
-          
+          <h1>MyTunes</h1>
           </nav>
         </header>
         <main>
-          <img src="./zb1.jpeg" alt="zerobaseone group photo"/>
+          <img src={groupPhoto} alt="zerobaseone group photo" width={300} height={300}/>
           <div>
           <h3>ZEROBASEONE Discography</h3>
             <table className="table">
